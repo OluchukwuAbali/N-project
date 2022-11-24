@@ -163,20 +163,37 @@ section div.strange img{
     height: 90%;
     width: auto;
 }
-section.last{
-    border-bottom: 1px solid #222;
+.last{
+    border-bottom: 8px solid #222;
 }
-div.xxx{
-    padding: 70px 30px;
+.xxx{
+ text-align: center;
+ padding: 70px 30px;
 }
-div.xxx h1{
+.xxx h1{
     font-size: 3.125rem;
-    text-align: center;
 }
-div.questions{
+.questions{
     max-width: 635px;
     margin: 0 auto;
+    font-size: 1.625rem;
 }
-div.answers{
+.answers{
     position: relative;
+    background-color: #303030;
+}
+.answers svg{
+width: 30px;
+height: 30px;
+right: 10px;
+top: 0;
+position: absolute;
+}
+.answers header{
+    padding: 20px 30px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+.answers .content{
+    padding: 30px;
 }
