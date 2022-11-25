@@ -167,11 +167,12 @@ section div.strange img{
     border-bottom: 8px solid #222;
 }
 .xxx{
- text-align: center;
  padding: 70px 30px;
 }
 .xxx h1{
     font-size: 3.125rem;
+    text-align: center;
+    margin: 0 0 50px;
 }
 .questions{
     max-width: 635px;
@@ -184,12 +185,12 @@ section div.strange img{
 }
 .answers svg{
 width: 30px;
-height: 30px;
+height: 35px;
 right: 10px;
-top: 0;
+top: 20;
 position: absolute;
 }
-.answers header{
+.answers .header{
     padding: 20px 30px;
     border-bottom: 1px solid black;
     cursor: pointer;
