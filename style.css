@@ -192,9 +192,52 @@ position: absolute;
 }
 .answers .header{
     padding: 20px 30px;
-    border-bottom: 1px solid black;
+    border-bottom: 8px solid black;
     cursor: pointer;
 }
 .answers .content{
     padding: 30px;
+}
+.ready{
+    padding-bottom: 50px;
+}
+div.ready h3{
+font-size: 1.25rem;
+font-weight: normal;
+margin: 40px 0 20px;
+}
+div.ready form{
+    position: relative;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: 1fr max-content;
+}
+.ready input{
+    padding: 14px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.ready input ~span{
+    position: absolute;
+    left: 12px;
+    top: 19px;
+    z-index: 3;
+    color: gray;
+    transition: all 0.15s;
+    pointer-events: none;
+}
+.ready input:focus{
+    padding-top: 19px;
+    padding-bottom: 11px;
+}
+.ready input:focus ~span{
+    top: 4px;
+    font-size: .8rem;
+}
+.ready button{
+    font-size: 1.625rem;
+    padding: 11.5px 26px;
+    background-color: #e50914;
+    color: white;
+    border: 0;
 }
