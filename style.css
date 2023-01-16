@@ -166,7 +166,10 @@ section div.strange img{
 .last{
     border-bottom: 8px solid #222;
 }
-.xxx{
+.things{
+    color: #0071EB;
+}
+.xxx{ 
  padding: 70px 30px;
 }
 .xxx h1{
@@ -184,11 +187,11 @@ section div.strange img{
     background-color: #303030;
 }
 .answers svg{
-width: 30px;
-height: 35px;
-right: 10px;
-top: 20;
-position: absolute;
+    width: 30px;
+    height: 35px;
+    right: 10px;
+    top: 20;
+    position: absolute;
 }
 .answers .header{
     padding: 20px 30px;
@@ -198,13 +201,16 @@ position: absolute;
 .answers .content{
     padding: 30px;
 }
+details summary{
+    list-style: none;
+}
 .ready{
     padding-bottom: 50px;
 }
 div.ready h3{
-font-size: 1.25rem;
-font-weight: normal;
-margin: 40px 0 20px;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin: 40px 0 20px;
 }
 div.ready form{
     position: relative;
@@ -240,4 +246,30 @@ div.ready form{
     background-color: #e50914;
     color: white;
     border: 0;
+}
+.xxx{
+    border-bottom: 8px solid #222;
+}
+.footer{
+   padding: 0;
+   width: 100%; 
+   margin: auto;
+}
+.footer ,
+.footer a{
+    color: #999;
+    font-size: 0.9rem;
+    text-decoration-line: none;
+}
+.footer p{
+    margin-bottom: 1.5rem;
+}
+.footer .cells{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    column-gap: 12rem;
+}
+.footer li{
+    line-height: 2.4;
+    list-style: none;
 }
